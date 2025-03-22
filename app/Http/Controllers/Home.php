@@ -7,7 +7,10 @@ use Illuminate\Support\Facades\View;
 
 class Home extends Controller
 {
-    public function index(){
+/*     public function index(){
+        if(!View::exists('index')){
+            return dd('View does not exist');
+        }
         return View::first(['welcome','home.index']);
-    }
+    } */
 }
